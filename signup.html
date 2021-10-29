@@ -15,6 +15,8 @@
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <script>
+var email_1;
+var password_1;
     $("#signup").click(function() {
 $("#first").fadeOut("fast", function() {
 $("#second").fadeIn("fast");
@@ -51,7 +53,10 @@ $("#first").fadeIn("fast");
                }
                
              },
+	    
+	     if(
              submitHandler: function(form) {
+		
                form.submit();
              }
            });
@@ -84,9 +89,11 @@ $(function() {
       },
       email: "Please enter a valid email address"
     },
+if(email_1=email && password_1= password){	  
   
     submitHandler: function(form) {
       form.submit();
+    }
     }
   });
 });
@@ -175,6 +182,7 @@ $(function() {
 				<div class="myform form ">
 					 <div class="logo mb-3">
 						 <div class="col-md-12 text-center">
+							<center><img src="channels4_profile.jpg" alt="logo" class="edu"><b>&nbsp;GUPTA EDUCATIONAL HUB</b></center>
 							<h1>Login</h1>
 						 </div>
 					</div>
@@ -227,7 +235,7 @@ $(function() {
                            </div>
                            <div class="col-md-12 ">
                               <div class="form-group">
-                                 <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                                 <p class="text-center"><a href="index.html"  target="_blank" id="signin">Already have an account?</a></p>
                               </div>
                            </div>
                             </div>
