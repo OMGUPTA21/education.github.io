@@ -304,9 +304,9 @@ textarea {
 
 .container {
     position: relative;
-    max-width: 800px;
-    max-height: 300px;
-    padding: 17.5%;
+    max-width: 700px;
+    max-height: 500px;
+    padding: 20.5%;
     background-color: #ce1515;
     overflow: hidden;
     display: flex;
