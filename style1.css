@@ -1,4 +1,8 @@
 * {box-sizing: border-box;}
+.edu{
+    
+    width: 70px;
+}
 
 /* Full-width input fields */
   input[type=text], input[type=password],input[type=number] {
