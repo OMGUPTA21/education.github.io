@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 ?>   
-<a href="index.html">CONTINUE</a><br><br><br>
+<a href="login.html">CONTINUE</a><br><br><br>
 
 
    
