@@ -19,6 +19,17 @@
 
 
 <script>
+/* To Disable Inspect Element */
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+
+$(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+	
 function myFunction() {
   alert("THANKS TO VISIT YOUR  WEBSITE HAVE A GREAT DAY PRESS OK AND CONTINUE TO GO !");
 }
@@ -123,6 +134,8 @@ function myFunction() {
 			<div class="col-md-5 mx-auto">
 			<div id="first">
 				<div class="myform form ">
+					<br>
+					<br>
 					 <div class="logo mb-3">
 						 <div class="col-md-12 text-center">
 							 <br>
