@@ -6,6 +6,7 @@
     width : 26px;
     border:1px solid black;
     border-radius: 3px;
+    float: right;
 }
 
 h2{
