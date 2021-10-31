@@ -13,22 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <script>
-/* To Disable Inspect Element */
-$(document).bind("contextmenu",function(e) {
- e.preventDefault();
-});
 
-$(document).keydown(function(e){
-    if(e.which === 123){
-       return false;
-    }
-});
-	
 function myFunction() {
   alert("THANKS TO VISIT YOUR  WEBSITE HAVE A GREAT DAY !");
 }
 </script>
-<body>
+<body  oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
 <!--menu bar-->
 <section>
 
