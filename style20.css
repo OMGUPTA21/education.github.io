@@ -2,7 +2,10 @@
     color :silver;
 }
  
-
+.photo{
+    width:50px;
+    float:right;
+}
 
 h2{
     text-align: center;
