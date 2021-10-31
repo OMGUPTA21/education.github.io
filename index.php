@@ -23,6 +23,13 @@
     
     width: 70px;
 }
+h1{
+	color:silver;
+	}
+img {
+	color:silver;
+	}
+	
    body{
         padding-top:4.2rem;
 		padding-bottom:4.2rem;
