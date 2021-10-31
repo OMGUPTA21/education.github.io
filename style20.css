@@ -3,7 +3,9 @@
 }
  
 #edu{
-    width : 15px;
+    width : 25px;
+    border:1px solid black;
+    border-radius: 3px;
 }
 
 h2{
