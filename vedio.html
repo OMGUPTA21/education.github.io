@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Videos - CodeWithHarry</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="test.css">
+    <style type="text/css">
+        
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/materialicons/v87/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+    <script data-ad-client="ca-pub-9655830461045889" async=""
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-60726752-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-60726752-3');
+    </script>
+    <link rel="stylesheet" href="styles.bc31d58d1fffbdf64e6b.css">
+    <style ng-transition="serverApp">
+        .content[_ngcontent-sc76] {
+            min-height: calc(100vh - 56px - 80px)
+        }
+    </style>
+    <style ng-transition="serverApp">
+        [_nghost-sc73] {
+            position: relative;
+            display: block;
+            pointer-events: none
+        }
+
+        [_nghost-sc73] .ngx-spinner[_ngcontent-sc73] {
+            transition: 350ms linear;
+            display: block;
+            position: absolute;
+            top: 5px;
+            left: 0
+        }
+
+        [_nghost-sc73] .ngx-spinner[_ngcontent-sc73] .ngx-spinner-icon[_ngcontent-sc73] {
+            width: 14px;
+            height: 14px;
+            border: 2px solid transparent;
+            border-top-color: inherit;
+            border-left-color: inherit;
+            border-radius: 50%;
+            -webkit-animation: .4s linear infinite loading-bar-spinner;
+            animation: .4s linear infinite loading-bar-spinner
+        }
+
+        [_nghost-sc73] .ngx-bar[_ngcontent-sc73] {
+            transition: width 350ms;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            border-bottom-right-radius: 1px;
+            border-top-right-radius: 1px
+        }
+
+        [dir=rtl] [_nghost-sc73] .ngx-bar[_ngcontent-sc73] {
+            right: 0;
+            left: unset
+        }
+
+        [fixed=true][_nghost-sc73] {
+            z-index: 10002
+        }
+
+        [fixed=true][_nghost-sc73] .ngx-bar[_ngcontent-sc73] {
+            position: fixed
+        }
+
+        [fixed=true][_nghost-sc73] .ngx-spinner[_ngcontent-sc73] {
+            position: fixed;
+            top: 10px;
+            left: 10px
+        }
+
+        [dir=rtl] [fixed=true][_nghost-sc73] .ngx-spinner[_ngcontent-sc73] {
+            right: 10px;
+            left: unset
+        }
+
+        @-webkit-keyframes loading-bar-spinner {
+            0% {
+                transform: rotate(0)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes loading-bar-spinner {
+            0% {
+                transform: rotate(0)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+    </style>
+    <style ng-transition="serverApp">
+        .brandLogo[_ngcontent-sc74] {
+            max-width: 39px;
+            margin: 0 13px
+        }
+
+        li[_ngcontent-sc74] a.nav-link[_ngcontent-sc74] {
+            color: #fff
+        }
+
+        .notificationImg[_ngcontent-sc74] {
+            width: 30px;
+            filter: invert(1)
+        }
+
+        .notification-bell[_ngcontent-sc74] {
+            position: absolute;
+            right: 0
+        }
+
+        .dropdown-toggle[_ngcontent-sc74] {
+            font-weight: 700
+        }
+
+        .dropdown-menu-notify[_ngcontent-sc74] {
+            overflow-y: scroll;
+            overflow-x: hidden;
+            max-height: 400px;
+            top: 60px;
+            right: -1px;
+            left: unset;
+            width: 460px;
+            box-shadow: 0 5px 7px -1px #c1c1c1;
+            padding: 0
+        }
+
+        ul[_ngcontent-sc74] ul[_ngcontent-sc74] a[_ngcontent-sc74] {
+            background: transparent
+        }
+
+        .dropdown-menu-notify[_ngcontent-sc74]:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            right: 12px;
+            border: 10px solid transparent;
+            border-bottom-color: #fff
+        }
+
+        .head-notify[_ngcontent-sc74] {
+            padding: 5px 15px;
+            border-radius: 3px 3px 0 0
+        }
+
+        .footer-notify[_ngcontent-sc74] {
+            padding: 5px 15px;
+            border-radius: 0 0 3px 3px
+        }
+
+        .notification-box-notify[_ngcontent-sc74] {
+            padding: 10px 0
+        }
+
+        .bg-gray-notify[_ngcontent-sc74] {
+            background-color: #eee
+        }
+
+        @media (max-width:640px) {
+            .dropdown-menu-notify[_ngcontent-sc74] {
+                top: 50px;
+                left: -16px;
+                width: 290px
+            }
+
+            .nav-notify[_ngcontent-sc74] {
+                display: block
+            }
+
+            .nav-notify[_ngcontent-sc74] .nav-item-notify[_ngcontent-sc74],
+            .nav-notify[_ngcontent-sc74] .nav-item-notify[_ngcontent-sc74] a[_ngcontent-sc74] {
+                padding-left: 0
+            }
+
+            .message-notify[_ngcontent-sc74] {
+                font-size: 13px
+            }
+        }
+
+        .loginError[_ngcontent-sc74] {
+            color: red;
+            padding: 3px 2px
+        }
+
+        div.alert[_ngcontent-sc74] {
+            margin: 0
+        }
+
+        input.ng-touched.ng-invalid[_ngcontent-sc74],
+        textarea.ng-touched.ng-invalid[_ngcontent-sc74] {
+            border-color: red
+        }
+
+        .forgot[_ngcontent-sc74] {
+            font-size: 14px;
+            color: #000;
+            text-align: left;
+            text-decoration: underline;
+            cursor: pointer;
+            padding: 16px 0
+        }
+
+        .googleAuth[_ngcontent-sc74] {
+            width: 46%;
+            cursor: pointer;
+            border: 1px solid #000;
+            border-radius: 3px;
+            background: #60a3dd;
+            margin-top: 1px
+        }
+
+        .or[_ngcontent-sc74] {
+            font-weight: 500;
+            font-size: 19px
+        }
+
+        .modal-header[_ngcontent-sc74] {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column
+        }
+
+        .modal-header[_ngcontent-sc74] span[_ngcontent-sc74] {
+            position: absolute;
+            top: 15px;
+            right: 20px
+        }
+
+        .navbar-brand[_ngcontent-sc74] {
+            margin: 0;
+            padding: 0
+        }
+    </style>
+    <style ng-transition="serverApp">
+        footer[_ngcontent-sc75] {
+            color: #fff
+        }
+    </style>
+    <style ng-transition="serverApp"></style>
+    <meta name="description"
+        content="Browse the list of all the free video courses on this platform. All the videos have chapter notes along with the source code">
+</head>
+
+<body  oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+    <app-root _nghost-sc76="" ng-version="11.2.11">
+        <ngx-loading-bar _ngcontent-sc76="" _nghost-sc73="" fixed="true" style="color:red;">
+            <!---->
+        </ngx-loading-bar>
+        <ngx-loading-bar _ngcontent-sc76="" _nghost-sc73="" fixed="true" style="color:red;">
+            <!---->
+        </ngx-loading-bar>
+        <app-header _ngcontent-sc76="" _nghost-sc74="">
+   
+        </app-header>
+        <div _ngcontent-sc76="" class="content">
+            <router-outlet _ngcontent-sc76=""></router-outlet>
+            <app-video-home _nghost-sc71="">
+                <div _ngcontent-sc71="" class="container-fluid main-container">
+                    <div _ngcontent-sc71="" class="row my-4 mx-4">
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeries/default.png">
+                            <h2 _ngcontent-sc71="">React Js Tutorials in Hindi</h2>
+                            <p _ngcontent-sc71="">This series will cover React from starting to the end. We will learn
+                                react from the ground up!</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/react-tutorials-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/default_YAMLAio.png">
+                            <h2 _ngcontent-sc71="">Python Practice Programs With Logic & Explanation In Hindi</h2>
+                            <p _ngcontent-sc71="">Python Practice Programs With Logic & Explanation In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/python-practice-programs-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/java.png">
+                            <h2 _ngcontent-sc71="">Java Tutorials For Beginners</h2>
+                            <p _ngcontent-sc71="">This series will cover Java from starting to the end. We will learn
+                                java from the start to the end</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/java-tutorials-for-beginners-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/c_2OXTgR5.png">
+                            <h2 _ngcontent-sc71="">C Language Practice Programs</h2>
+                            <p _ngcontent-sc71="">This series contains programs for you to practice C Programming and
+                                related concepts</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/c-practice-programs-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/algo_HGtKbPH.png">
+                            <h2 _ngcontent-sc71="">Data Structures and Algorithms Course in Hindi</h2>
+                            <p _ngcontent-sc71="">Data Structures and algorithms course</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/data-structures-and-algorithms-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/php_HVsSGgg.png">
+                            <h2 _ngcontent-sc71="">PHP Tutorials in Hindi</h2>
+                            <p _ngcontent-sc71="">PHP Tutorials in Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/php-tutorials-in-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/cpp.png">
+                            <h2 _ngcontent-sc71="">C++ Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">C++ Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/cpp-tutorials-in-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/world-wide-web.png">
+                            <h2 _ngcontent-sc71="">Web Development Tutorials For Beginners In Hindi: HTML, CSS,
+                                JavaScript & More</h2>
+                            <p _ngcontent-sc71="">Web Development Tutorials For Beginners In Hindi: HTML, CSS,
+                                JavaScript & More</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/web-development-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/git_SMHQRfM.png">
+                            <h2 _ngcontent-sc71="">Complete Git Tutorials For Beginners In Hindi</h2>
+                            <p _ngcontent-sc71="">Complete Git Tutorials For Beginners In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/complete-git-tutorials-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/android_eJ3rhzN.png">
+                            <h2 _ngcontent-sc71="">Android Development Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">Learn to create awesome android applications in hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/android-tutorials-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/js.png">
+                            <h2 _ngcontent-sc71="">JavaScript Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">JavaScript Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/javascript-tutorials-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/c_r8wWuCn.png">
+                            <h2 _ngcontent-sc71="">C Language Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">C Language Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/c-language-tutorials-in-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/django.png">
+                            <h2 _ngcontent-sc71="">Python Django Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">Python Django Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/python-django-tutorials-hindi-0"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/python.png">
+                            <h2 _ngcontent-sc71="">Python GUI Tkinter Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">Python GUI Tkinter Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/python-gui-tkinter-hindi-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/Python-logo.jpg">
+                            <h2 _ngcontent-sc71="">Python Tutorials For Absolute Beginners In Hindi</h2>
+                            <p _ngcontent-sc71="">Python Tutorials For Absolute Beginners In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/python-tutorials-for-absolute-beginners-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/pygame.png">
+                            <h2 _ngcontent-sc71="">Python Game Development Using Pygame In Hindi</h2>
+                            <p _ngcontent-sc71="">Python Game Development Using Pygame In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/python-game-development-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/cloudai.jpg">
+                            <h2 _ngcontent-sc71="">Machine Learning Tutorials For Beginners Using Python In Hindi</h2>
+                            <p _ngcontent-sc71="">Machine Learning Tutorials For Beginners Using Python In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/ml-tutorials-in-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/default_ns42Da3.png">
+                            <h2 _ngcontent-sc71="">Basic Python Programs With Code</h2>
+                            <p _ngcontent-sc71="">Basic Python Programs With Code</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/basic-python-programs-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/Python-logo_SuZHKI7.jpg">
+                            <h2 _ngcontent-sc71="">Python Data Science and Big Data Tutorials In Hindi</h2>
+                            <p _ngcontent-sc71="">Python Data Science and Big Data Tutorials In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/python-big-data-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/git_a6oiG1D.png">
+                            <h2 _ngcontent-sc71="">Git and GitHub Tutorials For Beginners In Hindi</h2>
+                            <p _ngcontent-sc71="">Git and GitHub Tutorials For Beginners In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/git-tut-beginners-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/flas_jdzfxKn.png">
+                            <h2 _ngcontent-sc71="">Web Development Using Flask and Python</h2>
+                            <p _ngcontent-sc71="">Web Development Using Flask and Python</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/web-dev-using-flask-and-python-1"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/code.png">
+                            <h2 _ngcontent-sc71="">Learn In One Video</h2>
+                            <p _ngcontent-sc71="">Learn In One Video</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71=""
+                                    href="/videos/learn-python-in-one-video-in-hindi"><button _ngcontent-sc71=""
+                                        class="btn btn-outline-danger">Start Watching »</button></a></p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/php_XAy0Qw7.png">
+                            <h2 _ngcontent-sc71="">Creating a Realtime PHP Chatroom Using PHP & Jquery</h2>
+                            <p _ngcontent-sc71="">Creating a Realtime PHP Chatroom Using PHP & Jquery</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/realtime-php-chatroom-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/default.png">
+                            <h2 _ngcontent-sc71="">General Python Errors In Hindi</h2>
+                            <p _ngcontent-sc71="">General Python Errors In Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/general-python-errors-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/oop.png">
+                            <h2 _ngcontent-sc71="">Object Oriented Programming Using Python Programming</h2>
+                            <p _ngcontent-sc71="">Object Oriented Programming Using Python Programming</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/object-oriented-hindi-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/discuss.png">
+                            <h2 _ngcontent-sc71="">Coding Discussion With Harry</h2>
+                            <p _ngcontent-sc71="">Coding Discussion With Harry</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/coding-discussion-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <div _ngcontent-sc71="" class="col-md-6 col-lg-4 text-center"><img _ngcontent-sc71=""
+                                width="140" height="140" class="rounded-circle"
+                                src="https://api.codewithharry.com/media/videoSeriesTiles/python2.png">
+                            <h2 _ngcontent-sc71="">Intermediate python Tutorials in Hindi</h2>
+                            <p _ngcontent-sc71="">Intermediate/Advanced python Tutorials in Hindi</p>
+                            <p _ngcontent-sc71=""><a _ngcontent-sc71="" href="/videos/intermediate-python-1"><button
+                                        _ngcontent-sc71="" class="btn btn-outline-danger">Start Watching »</button></a>
+                            </p>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+            </app-video-home>
+            <!---->
+        </div>
+        <app-footer _ngcontent-sc76="" _nghost-sc75="">
+            <footer _ngcontent-sc75="" class="container-fluid bg-dark my-0 py-3 text-light">
+                <p _ngcontent-sc75="" class="mb-0 text-center">Copyright © 2020-2021 CodeWithHarry.com</p>
+            </footer>
+        </app-footer>
+    </app-root>
+    <script src="runtime.7b63b9fd40098a2e8207.js" defer=""></script>
+    <script src="polyfills.00096ed7d93ed26ee6df.js" defer=""></script>
+    <script src="scripts.2558b03aa1b9660ed84d.js" defer=""></script>
+    <script src="main.bd8a3a7a366ac101c3dc.js" defer=""></script>
+
+
+    <script id="serverApp-state"
+        type="application/json">{&q;G.https://api.codewithharry.com/video/getcourses?&q;:{&q;body&q;:[{&q;sno&q;:29,&q;seriesTitle&q;:&q;React Js Tutorials in Hindi&q;,&q;seriesDesc&q;:&q;This series will cover React from starting to the end. We will learn react from the ground up!&q;,&q;image&q;:&q;/media/videoSeries/default.png&q;,&q;firstSlug&q;:&q;react-tutorials-in-hindi-1&q;},{&q;sno&q;:27,&q;seriesTitle&q;:&q;Python Practice Programs With Logic &a; Explanation In Hindi&q;,&q;seriesDesc&q;:&q;Python Practice Programs With Logic &a; Explanation In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/default_YAMLAio.png&q;,&q;firstSlug&q;:&q;python-practice-programs-in-hindi-1&q;},{&q;sno&q;:26,&q;seriesTitle&q;:&q;Java Tutorials For Beginners&q;,&q;seriesDesc&q;:&q;This series will cover Java from starting to the end. We will learn java from the start to the end&q;,&q;image&q;:&q;/media/videoSeriesTiles/java.png&q;,&q;firstSlug&q;:&q;java-tutorials-for-beginners-1&q;},{&q;sno&q;:25,&q;seriesTitle&q;:&q;C Language Practice Programs&q;,&q;seriesDesc&q;:&q;This series contains programs for you to practice C Programming and related concepts&q;,&q;image&q;:&q;/media/videoSeriesTiles/c_2OXTgR5.png&q;,&q;firstSlug&q;:&q;c-practice-programs-in-hindi-1&q;},{&q;sno&q;:24,&q;seriesTitle&q;:&q;Data Structures and Algorithms Course in Hindi&q;,&q;seriesDesc&q;:&q;Data Structures and algorithms course&q;,&q;image&q;:&q;/media/videoSeriesTiles/algo_HGtKbPH.png&q;,&q;firstSlug&q;:&q;data-structures-and-algorithms-in-hindi-1&q;},{&q;sno&q;:23,&q;seriesTitle&q;:&q;PHP Tutorials in Hindi&q;,&q;seriesDesc&q;:&q;PHP Tutorials in Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/php_HVsSGgg.png&q;,&q;firstSlug&q;:&q;php-tutorials-in-hindi-1&q;},{&q;sno&q;:22,&q;seriesTitle&q;:&q;C++ Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;C++ Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/cpp.png&q;,&q;firstSlug&q;:&q;cpp-tutorials-in-hindi-1&q;},{&q;sno&q;:20,&q;seriesTitle&q;:&q;Web Development Tutorials For Beginners In Hindi: HTML, CSS, JavaScript &a; More&q;,&q;seriesDesc&q;:&q;Web Development Tutorials For Beginners In Hindi: HTML, CSS, JavaScript &a; More&q;,&q;image&q;:&q;/media/videoSeriesTiles/world-wide-web.png&q;,&q;firstSlug&q;:&q;web-development-in-hindi-1&q;},{&q;sno&q;:19,&q;seriesTitle&q;:&q;Complete Git Tutorials For Beginners In Hindi&q;,&q;seriesDesc&q;:&q;Complete Git Tutorials For Beginners In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/git_SMHQRfM.png&q;,&q;firstSlug&q;:&q;complete-git-tutorials-in-hindi-1&q;},{&q;sno&q;:18,&q;seriesTitle&q;:&q;Android Development Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;Learn to create awesome android applications in hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/android_eJ3rhzN.png&q;,&q;firstSlug&q;:&q;android-tutorials-in-hindi-1&q;},{&q;sno&q;:17,&q;seriesTitle&q;:&q;JavaScript Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;JavaScript Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/js.png&q;,&q;firstSlug&q;:&q;javascript-tutorials-in-hindi-1&q;},{&q;sno&q;:16,&q;seriesTitle&q;:&q;C Language Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;C Language Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/c_r8wWuCn.png&q;,&q;firstSlug&q;:&q;c-language-tutorials-in-hindi-1&q;},{&q;sno&q;:15,&q;seriesTitle&q;:&q;Python Django Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;Python Django Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/django.png&q;,&q;firstSlug&q;:&q;python-django-tutorials-hindi-0&q;},{&q;sno&q;:14,&q;seriesTitle&q;:&q;Python GUI Tkinter Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;Python GUI Tkinter Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/python.png&q;,&q;firstSlug&q;:&q;python-gui-tkinter-hindi-1&q;},{&q;sno&q;:13,&q;seriesTitle&q;:&q;Python Tutorials For Absolute Beginners In Hindi&q;,&q;seriesDesc&q;:&q;Python Tutorials For Absolute Beginners In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/Python-logo.jpg&q;,&q;firstSlug&q;:&q;python-tutorials-for-absolute-beginners-1&q;},{&q;sno&q;:12,&q;seriesTitle&q;:&q;Python Game Development Using Pygame In Hindi&q;,&q;seriesDesc&q;:&q;Python Game Development Using Pygame In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/pygame.png&q;,&q;firstSlug&q;:&q;python-game-development-1&q;},{&q;sno&q;:11,&q;seriesTitle&q;:&q;Machine Learning Tutorials For Beginners Using Python In Hindi&q;,&q;seriesDesc&q;:&q;Machine Learning Tutorials For Beginners Using Python In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/cloudai.jpg&q;,&q;firstSlug&q;:&q;ml-tutorials-in-hindi-1&q;},{&q;sno&q;:10,&q;seriesTitle&q;:&q;Basic Python Programs With Code&q;,&q;seriesDesc&q;:&q;Basic Python Programs With Code&q;,&q;image&q;:&q;/media/videoSeriesTiles/default_ns42Da3.png&q;,&q;firstSlug&q;:&q;basic-python-programs-1&q;},{&q;sno&q;:9,&q;seriesTitle&q;:&q;Python Data Science and Big Data Tutorials In Hindi&q;,&q;seriesDesc&q;:&q;Python Data Science and Big Data Tutorials In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/Python-logo_SuZHKI7.jpg&q;,&q;firstSlug&q;:&q;python-big-data-hindi-1&q;},{&q;sno&q;:8,&q;seriesTitle&q;:&q;Git and GitHub Tutorials For Beginners In Hindi&q;,&q;seriesDesc&q;:&q;Git and GitHub Tutorials For Beginners In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/git_a6oiG1D.png&q;,&q;firstSlug&q;:&q;git-tut-beginners-hindi-1&q;},{&q;sno&q;:7,&q;seriesTitle&q;:&q;Web Development Using Flask and Python&q;,&q;seriesDesc&q;:&q;Web Development Using Flask and Python&q;,&q;image&q;:&q;/media/videoSeriesTiles/flas_jdzfxKn.png&q;,&q;firstSlug&q;:&q;web-dev-using-flask-and-python-1&q;},{&q;sno&q;:6,&q;seriesTitle&q;:&q;Learn In One Video&q;,&q;seriesDesc&q;:&q;Learn In One Video&q;,&q;image&q;:&q;/media/videoSeriesTiles/code.png&q;,&q;firstSlug&q;:&q;learn-python-in-one-video-in-hindi&q;},{&q;sno&q;:5,&q;seriesTitle&q;:&q;Creating a Realtime PHP Chatroom Using PHP &a; Jquery&q;,&q;seriesDesc&q;:&q;Creating a Realtime PHP Chatroom Using PHP &a; Jquery&q;,&q;image&q;:&q;/media/videoSeriesTiles/php_XAy0Qw7.png&q;,&q;firstSlug&q;:&q;realtime-php-chatroom-1&q;},{&q;sno&q;:4,&q;seriesTitle&q;:&q;General Python Errors In Hindi&q;,&q;seriesDesc&q;:&q;General Python Errors In Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/default.png&q;,&q;firstSlug&q;:&q;general-python-errors-1&q;},{&q;sno&q;:3,&q;seriesTitle&q;:&q;Object Oriented Programming Using Python Programming&q;,&q;seriesDesc&q;:&q;Object Oriented Programming Using Python Programming&q;,&q;image&q;:&q;/media/videoSeriesTiles/oop.png&q;,&q;firstSlug&q;:&q;object-oriented-hindi-1&q;},{&q;sno&q;:2,&q;seriesTitle&q;:&q;Coding Discussion With Harry&q;,&q;seriesDesc&q;:&q;Coding Discussion With Harry&q;,&q;image&q;:&q;/media/videoSeriesTiles/discuss.png&q;,&q;firstSlug&q;:&q;coding-discussion-1&q;},{&q;sno&q;:1,&q;seriesTitle&q;:&q;Intermediate python Tutorials in Hindi&q;,&q;seriesDesc&q;:&q;Intermediate/Advanced python Tutorials in Hindi&q;,&q;image&q;:&q;/media/videoSeriesTiles/python2.png&q;,&q;firstSlug&q;:&q;intermediate-python-1&q;}],&q;headers&q;:{&q;date&q;:[&q;Sun, 31 Oct 2021 00:11:06 GMT&q;],&q;server&q;:[&q;Apache/2.4.41 (Ubuntu)&q;],&q;vary&q;:[&q;Accept,Origin&q;],&q;allow&q;:[&q;OPTIONS, GET&q;],&q;x-frame-options&q;:[&q;DENY&q;],&q;content-length&q;:[&q;5952&q;],&q;x-content-type-options&q;:[&q;nosniff&q;],&q;referrer-policy&q;:[&q;same-origin&q;],&q;keep-alive&q;:[&q;timeout=5, max=100&q;],&q;connection&q;:[&q;Keep-Alive&q;],&q;content-type&q;:[&q;application/json&q;]},&q;status&q;:200,&q;statusText&q;:&q;OK&q;,&q;url&q;:&q;https://api.codewithharry.com/video/getcourses&q;}}</script>
+</body><!-- This page was prerendered with Angular Universal -->
+
+</html>
