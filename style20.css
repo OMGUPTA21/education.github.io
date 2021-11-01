@@ -6,6 +6,9 @@
     background-color:blue;
     color:green;
     text-align:center;
+    padding:5x;
+    margin:1px;
+    border:1px solid blue;
 }
 .photo{
     width:50px;
