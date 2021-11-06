@@ -1,7 +1,12 @@
 .colorwhite{
     color :silver;
 }
- 
+ body {
+  background-image: url('bag.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
 .if21{
     background-color:whitw;
     color:green;
