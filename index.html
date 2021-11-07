@@ -123,7 +123,15 @@ window.alert("THANKS TO VISIT YOUR  WEBSITE HAVE A GREAT DAY PRESS OK AND CONTIN
 	
 	
 </style>
-
+<!-- pre loader-->
+ <div class="container"></div>
+ <div id="preloader.gif" style=" z-index: 20;display:none;"></div>
+ 
+    
+ $("#button").click(function() {
+    $("#container").css("opacity",0.5);
+    $("#loading-img").css({"display": "block"});
+}
 
 
 
@@ -160,8 +168,8 @@ window.alert("THANKS TO VISIT YOUR  WEBSITE HAVE A GREAT DAY PRESS OK AND CONTIN
 
 
 
-   
-<center><a href="login1.html">CONTINUE</a></center><br><br><br>			
+  
+<center><button id="button"><a href="login1.html">CONTINUE</a> </button></center><br><br><br>			
 
 
          
